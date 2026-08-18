@@ -3,8 +3,12 @@
 
 const GROQ_URL = "https://api.groq.com/openai/v1/chat/completions";
 // Primary model for extraction + verification reasoning
+<<<<<<< HEAD
 // export const DEFAULT_MODEL = "llama-3.3-70b-versatile";
 export const DEFAULT_MODEL = "openai/gpt-oss-120b";
+=======
+export const DEFAULT_MODEL = "llama-3.3-70b-versatile";
+>>>>>>> f34843ecd794c282eb6d4bf3af51d6d8c4c611e4
 // Groq's "compound" model has built-in live web search (Groq's own search tool).
 export const COMPOUND_MODEL = "groq/compound";
 
