@@ -6,7 +6,7 @@ const API_BASE =
   (typeof import.meta !== "undefined" &&
     import.meta.env &&
     import.meta.env.VITE_API_URL) ||
-  "http://localhost:5000";
+  "https://truthlens-ai-2qw8.onrender.com";
 
 async function jsonFetch(path, options = {}, timeoutMs = 90000) {
   const controller = new AbortController();
